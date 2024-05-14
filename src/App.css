@@ -1,0 +1,128 @@
+.dra-menu {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.dra-menu:hover .dra-menu-ul {
+    display: block;
+}
+
+.dra-menu-ul {
+    position: absolute;
+    top: 24px;
+    left: 0;
+    /* border: 1px solid black; */
+    width: 174px;
+    z-index: 1;
+    background-color: white;
+    display: none;
+}
+
+.dra-menu-ul::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 173px;
+    height: 15px;
+    display: block;
+}
+
+.dra-menu-li {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.dra-menu-li:hover {
+    background-color: gray;
+    color: white;
+}
+
+.dra-form {
+    border: 1px solid black;
+    margin: auto;
+}
+
+.dra-title-account {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.dra-row {
+    padding: 10px;
+}
+
+.dra-pointer {
+    cursor: pointer;
+}
+
+.dra-pointer:hover {
+    color: bisque;
+}
+
+.dra-forgot:hover {
+    color: rgb(243, 243, 87);
+    cursor: pointer;
+}
+
+.dra-btn-quantity {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 0 10px;
+    color: #333;
+}
+
+/* search */
+.dra-scope-search {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: white;
+    /* max-width: 400px; */
+    width: 640px;
+    z-index: 100;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 4px;
+    border: 1px solid #666;
+    padding: 4px;
+}
+
+.dra-scope-search-item {
+    width: 310px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-radius: 4px;
+    padding: 4px;
+
+    /* background-color: yellow; */
+}
+
+.dra-scope-search-item:hover {
+    background-color: #666;
+    color: white;
+}
+
+.dra-search-item-image {
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dra-search-item-info {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.dra-product-name:hover {
+    text-decoration: underline;
+}

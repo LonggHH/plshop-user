@@ -1,0 +1,1 @@
+export const linkBackend = 'http://localhost:3003';
