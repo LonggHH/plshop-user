@@ -330,7 +330,7 @@ const Footer = () => {
                                 {/* Begin Copyright Area */}
                                 <div className="copyright text-center pt-25">
                                     <span>
-                                        <a target="_blank" href="https://www.templateshub.net">
+                                        <a>
                                             Lipuma Hub
                                         </a>
                                     </span>
